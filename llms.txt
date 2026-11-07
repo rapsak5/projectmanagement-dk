@@ -1,0 +1,52 @@
+# projectmanagement.dk
+
+> Projektledelse på almindeligt dansk: faser, interessenter, RACI, risikomatrix, vandfald og agil, kickoff-tjekliste og seks AI-prompts til projektlederen.
+
+Et opslagsværk om projektledelse på dansk, skrevet af Kasper Bergstrøm og drevet af Berg-Streaming. Senest opdateret 2026-11-07.
+
+## Indhold
+- [Grundbegreber](https://projectmanagement.dk/#grundbegreber): Hvad et projekt er, og projekttrekanten med omfang, tid, ressourcer og kvalitet.
+- [Faser](https://projectmanagement.dk/#faser): Initiering, planlægning, udførelse og afslutning, plus overvågning og styring hele vejen.
+- [Interessenter](https://projectmanagement.dk/#interessenter): Interessentmatrix efter indflydelse og interesse.
+- [Roller](https://projectmanagement.dk/#roller): RACI-matrix med eksempel.
+- [Risici](https://projectmanagement.dk/#risici): Risikomatrix fem gange fem med eksempler.
+- [Metoder](https://projectmanagement.dk/#metoder): Vandfald, agil og hybrid, samt PRINCE2, Scrum, Kanban, IPMA og PMI.
+- [AI i projektledelse](https://projectmanagement.dk/#ai): Seks prompts til projektgrundlag, interessenter, risici, møder, status og erfaringer.
+- [Kickoff-tjekliste](https://projectmanagement.dk/#kickoff): Otte ting, der bør være på plads før kickoff.
+- [Ordbog](https://projectmanagement.dk/#ordbog): Projektsprog på almindeligt dansk.
+- [Spørgsmål og svar](https://projectmanagement.dk/#faq): Korte svar på almindelige spørgsmål om projektledelse.
+
+## Ordbog
+- **Projektgrundlag**: Dokumentet, der beskriver hvorfor, hvad og hvordan. Det er kontrakten mellem projektleder og sponsor.
+- **Business case**: Argumentet for, at projektet er pengene og tiden værd. Bør genbesøges, når forudsætningerne ændrer sig.
+- **Milepæl**: Et tidspunkt, hvor noget skal være færdigt eller besluttet. Har ingen varighed, kun en dato.
+- **Leverance**: Det konkrete, projektet afleverer. En rapport, et system, en uddannet medarbejdergruppe.
+- **Kritisk vej**: Den kæde af opgaver, hvor enhver forsinkelse forsinker hele projektet.
+- **Styregruppe**: Gruppen, der træffer de store beslutninger og hjælper projektlederen, når noget går i stå.
+- **Scope creep**: Når projektet langsomt vokser, fordi der hele tiden kommer "lige en lille ting mere" til.
+- **Buffer**: Tid eller penge, der er lagt ind til det uforudsete. Bør være synlig, ikke gemt i hver opgave.
+- **Sprint**: En kort, fast periode i agile projekter, typisk to uger, hvor teamet leverer noget færdigt.
+
+## Spørgsmål og svar
+### Hvad er projektledelse?
+Projektledelse er at planlægge, styre og afslutte en midlertidig opgave med et klart mål, så den bliver leveret til tiden, inden for budget og i den aftalte kvalitet. I praksis handler det mest om beslutninger, forventninger og kommunikation mellem mennesker.
+
+### Hvilke faser har et projekt?
+De fleste metoder bruger fire faser: initiering, planlægning, udførelse og afslutning. Overvågning og styring kører hele vejen igennem, med opfølgning på tid, økonomi, kvalitet og risici.
+
+### Hvad står RACI for?
+Responsible, Accountable, Consulted og Informed. En RACI-matrix viser for hver opgave, hvem der udfører den, hvem der står til ansvar, hvem der skal spørges før, og hvem der skal orienteres efter. Hver opgave har præcis ét A.
+
+### Hvordan laver man en risikomatrix?
+Vurdér hver risiko på to skalaer fra 1 til 5: sandsynlighed og konsekvens. Gang de to tal. Jo højere score, jo mere opmærksomhed skal risikoen have. De største risici får en navngiven ejer og et konkret tiltag.
+
+### Hvad er forskellen på vandfald og agil projektledelse?
+Vandfald passer, når kravene er kendte og stabile. Man planlægger grundigt i starten og leverer til sidst. Agil passer, når kravene opdages undervejs. Man planlægger løbende og leverer lidt ad gangen. Hybrid kombinerer en fast ramme med agile detaljer.
+
+### Hvordan kan AI hjælpe en projektleder?
+AI er god til projektarbejdets tekst: første udkast til projektgrundlag, risikoanalyser, mødereferater med action points og statusrapporter til styregruppen. Du skal stadig selv tjekke indholdet og kun bruge de værktøjer, din organisation har godkendt.
+
+## Hjælp og relaterede sider
+- [ai-workshop.dk](https://ai-workshop.dk/): Praktiske workshops om AI i projektledelse og vidensarbejde.
+- [pharmaconsulting.ai](https://pharmaconsulting.ai/): AI i projekter i pharma og life science.
+- [stemplerind.dk](https://stemplerind.dk/): Tidsregistrering med NFC-klistermærker og projektmærker.

@@ -3,14 +3,275 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta property="og:title" content="projectmanagement.dk">
-<meta property="og:description" content="Projektledelse forklaret konkret: faser, interessenter, risici, metoder og AI i projektarbejdet.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://projectmanagement.dk/">
+<title>Projektledelse forklaret: faser, RACI, risici og AI</title>
+<meta name="description" content="Projektledelse på almindeligt dansk: faser, interessenter, RACI, risikomatrix, vandfald og agil, kickoff-tjekliste og seks AI-prompts til projektlederen.">
+<meta name="author" content="Kasper Bergstrøm">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#1F3A68">
 <link rel="canonical" href="https://projectmanagement.dk/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:site_name" content="projectmanagement.dk">
+<meta property="og:title" content="Projektledelse forklaret konkret">
+<meta property="og:description" content="Faser, interessenter, RACI, risici, metoder og hvordan AI kan tage noget af slæbet i projektarbejdet.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://projectmanagement.dk/">
+<meta property="og:image" content="https://projectmanagement.dk/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="projectmanagement.dk: Planen er den nemme del">
+<meta property="og:locale" content="da_DK">
+<meta property="article:published_time" content="2026-11-03">
+<meta property="article:modified_time" content="2026-11-07">
+<meta name="twitter:card" content="summary_large_image">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>projectmanagement.dk</title>
-<meta name="description" content="Projektledelse forklaret konkret: faser, interessenter, risici, metoder og hvordan AI kan hjælpe i det daglige projektarbejde.">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://projectmanagement.dk/#website",
+   "url": "https://projectmanagement.dk/",
+   "name": "projectmanagement.dk",
+   "inLanguage": "da-DK",
+   "publisher": {
+    "@id": "https://berg-streaming.dk/#organization"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://berg-streaming.dk/#organization",
+   "name": "Berg-Streaming",
+   "url": "https://berg-streaming.dk/",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ove Billes Vej 7, 1.",
+    "postalCode": "2300",
+    "addressLocality": "København S",
+    "addressCountry": "DK"
+   },
+   "vatID": "DK40989102",
+   "email": "kasper@ai-workshop.dk",
+   "founder": {
+    "@id": "https://ai-workshop.dk/#kasper"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ai-workshop.dk/#kasper",
+   "name": "Kasper Bergstrøm",
+   "url": "https://ai-workshop.dk/",
+   "description": "Underviser i praktisk brug af AI med baggrund i pædagogik, IT og organisatorisk læring.",
+   "knowsAbout": [
+    "Projektledelse",
+    "Generativ AI",
+    "Organisatorisk læring",
+    "Kompetenceudvikling"
+   ],
+   "sameAs": [
+    "https://www.linkedin.com/in/kasper-bergstrom"
+   ]
+  },
+  {
+   "@type": "Article",
+   "@id": "https://projectmanagement.dk/#artikel",
+   "headline": "Projektledelse forklaret: faser, interessenter, RACI, risici, metoder og AI",
+   "description": "Projektledelse på almindeligt dansk: faser, interessenter, RACI, risikomatrix, vandfald og agil, kickoff-tjekliste og seks AI-prompts til projektlederen.",
+   "url": "https://projectmanagement.dk/",
+   "mainEntityOfPage": "https://projectmanagement.dk/",
+   "inLanguage": "da-DK",
+   "isPartOf": {
+    "@id": "https://projectmanagement.dk/#website"
+   },
+   "image": "https://projectmanagement.dk/og.png",
+   "datePublished": "2026-11-03",
+   "dateModified": "2026-11-07",
+   "author": {
+    "@id": "https://ai-workshop.dk/#kasper"
+   },
+   "publisher": {
+    "@id": "https://berg-streaming.dk/#organization"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Projektledelse"
+    },
+    {
+     "@type": "Thing",
+     "name": "Projekttrekanten"
+    },
+    {
+     "@type": "Thing",
+     "name": "Interessentanalyse"
+    },
+    {
+     "@type": "Thing",
+     "name": "RACI-matrix"
+    },
+    {
+     "@type": "Thing",
+     "name": "Risikostyring"
+    },
+    {
+     "@type": "Thing",
+     "name": "Agil projektledelse"
+    },
+    {
+     "@type": "Thing",
+     "name": "AI i projektledelse"
+    }
+   ],
+   "mentions": [
+    {
+     "@type": "Thing",
+     "name": "PRINCE2"
+    },
+    {
+     "@type": "Thing",
+     "name": "Scrum"
+    },
+    {
+     "@type": "Thing",
+     "name": "Kanban"
+    },
+    {
+     "@type": "Thing",
+     "name": "IPMA"
+    },
+    {
+     "@type": "Thing",
+     "name": "PMI"
+    },
+    {
+     "@type": "Thing",
+     "name": "PMBOK"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://projectmanagement.dk/#faq",
+   "inLanguage": "da-DK",
+   "isPartOf": {
+    "@id": "https://projectmanagement.dk/#website"
+   },
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Hvad er projektledelse?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Projektledelse er at planlægge, styre og afslutte en midlertidig opgave med et klart mål, så den bliver leveret til tiden, inden for budget og i den aftalte kvalitet. I praksis handler det mest om beslutninger, forventninger og kommunikation mellem mennesker."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Hvilke faser har et projekt?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "De fleste metoder bruger fire faser: initiering, planlægning, udførelse og afslutning. Overvågning og styring kører hele vejen igennem, med opfølgning på tid, økonomi, kvalitet og risici."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Hvad står RACI for?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Responsible, Accountable, Consulted og Informed. En RACI-matrix viser for hver opgave, hvem der udfører den, hvem der står til ansvar, hvem der skal spørges før, og hvem der skal orienteres efter. Hver opgave har præcis ét A."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Hvordan laver man en risikomatrix?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Vurdér hver risiko på to skalaer fra 1 til 5: sandsynlighed og konsekvens. Gang de to tal. Jo højere score, jo mere opmærksomhed skal risikoen have. De største risici får en navngiven ejer og et konkret tiltag."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Hvad er forskellen på vandfald og agil projektledelse?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Vandfald passer, når kravene er kendte og stabile. Man planlægger grundigt i starten og leverer til sidst. Agil passer, når kravene opdages undervejs. Man planlægger løbende og leverer lidt ad gangen. Hybrid kombinerer en fast ramme med agile detaljer."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Hvordan kan AI hjælpe en projektleder?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AI er god til projektarbejdets tekst: første udkast til projektgrundlag, risikoanalyser, mødereferater med action points og statusrapporter til styregruppen. Du skal stadig selv tjekke indholdet og kun bruge de værktøjer, din organisation har godkendt."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "DefinedTermSet",
+   "@id": "https://projectmanagement.dk/#ordbog",
+   "name": "Projektsprog på almindeligt dansk",
+   "inLanguage": "da-DK",
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "name": "Projektgrundlag",
+     "description": "Dokumentet, der beskriver hvorfor, hvad og hvordan. Det er kontrakten mellem projektleder og sponsor.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Business case",
+     "description": "Argumentet for, at projektet er pengene og tiden værd. Bør genbesøges, når forudsætningerne ændrer sig.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Milepæl",
+     "description": "Et tidspunkt, hvor noget skal være færdigt eller besluttet. Har ingen varighed, kun en dato.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Leverance",
+     "description": "Det konkrete, projektet afleverer. En rapport, et system, en uddannet medarbejdergruppe.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Kritisk vej",
+     "description": "Den kæde af opgaver, hvor enhver forsinkelse forsinker hele projektet.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Styregruppe",
+     "description": "Gruppen, der træffer de store beslutninger og hjælper projektlederen, når noget går i stå.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Scope creep",
+     "description": "Når projektet langsomt vokser, fordi der hele tiden kommer \"lige en lille ting mere\" til.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Buffer",
+     "description": "Tid eller penge, der er lagt ind til det uforudsete. Bør være synlig, ikke gemt i hver opgave.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Sprint",
+     "description": "En kort, fast periode i agile projekter, typisk to uger, hvor teamet leverer noget færdigt.",
+     "inDefinedTermSet": "https://projectmanagement.dk/#ordbog"
+    }
+   ]
+  }
+ ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
@@ -243,6 +504,28 @@ footer h4{font-family:var(--f-mono); font-size:.75rem; letter-spacing:.08em; tex
 footer ul{list-style:none; margin:0; padding:0; display:grid; gap:.4rem}
 footer .small{font-size:var(--step--1); opacity:.75}
 .sel{user-select:all; font-family:var(--f-mono)}
+
+/* Byline */
+.byline{font-family:var(--f-mono); font-size:var(--step--1); color:var(--ink-2)}
+
+/* Promo banner: StemplerInd */
+section.promo-wrap{padding-block:0 4.5rem}
+.promo{display:grid; gap:1.5rem; align-items:center; background:var(--surface); border:1.5px solid var(--accent); border-radius:14px; padding:1.5rem; position:relative; overflow:hidden}
+@media (min-width: 820px){.promo{grid-template-columns:auto 1fr auto; gap:2rem; padding:1.75rem 2rem}}
+.promo .ad{font-family:var(--f-mono); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2)}
+.promo h2{font-size:var(--step-2); margin:.35rem 0 .5rem}
+.promo p{color:var(--ink-2); max-width:58ch}
+.promo .facts{margin-top:.85rem}
+.promo .hero-cta{flex-direction:column; align-items:stretch}
+@media (max-width: 819px){.promo .hero-cta{flex-direction:row}}
+.tags{display:flex; gap:.5rem; align-items:center}
+.tags svg{display:block}
+
+/* FAQ */
+.faq{display:grid; gap:0 2.5rem; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr))}
+.faq .qa{padding:1.1rem 0; border-bottom:1px solid var(--line); display:grid; gap:.4rem; align-content:start}
+.faq .qa h3{font-size:var(--step-1)}
+.faq .qa p{color:var(--ink-2)}
 </style>
 </head>
 <body>
@@ -262,6 +545,7 @@ footer .small{font-size:var(--step--1); opacity:.75}
       <a href="#ai">AI</a>
       <a href="#hjaelp">Få hjælp</a>
       <a href="#ordbog">Ordbog</a>
+      <a href="#faq">Spørgsmål</a>
     </nav>
   </div>
 </header>
@@ -278,6 +562,7 @@ footer .small{font-size:var(--step--1); opacity:.75}
         <a class="btn primary" href="#faser">Start med faserne</a>
         <a class="btn" href="#ai">Projektledelse med AI</a>
       </div>
+      <p class="byline">Af Kasper Bergstrøm · Opdateret <time datetime="2026-11-07">7. november 2026</time></p>
     </div>
 
     <figure class="figure" style="margin:0; min-width:0">
@@ -573,6 +858,34 @@ footer .small{font-size:var(--step--1); opacity:.75}
   </div>
 </section>
 
+<section class="block promo-wrap" aria-labelledby="promo-h">
+  <div class="wrap">
+    <aside class="promo">
+      <div class="tags" aria-hidden="true">
+        <svg width="132" height="84" viewBox="0 0 132 84">
+          <circle cx="40" cy="42" r="36" fill="var(--ink)"/>
+          <text x="40" y="38" text-anchor="middle" fill="var(--paper)" style="font-family:var(--f-mono); font-size:11px; font-weight:600">IND</text>
+          <text x="40" y="54" text-anchor="middle" fill="var(--paper)" style="font-family:var(--f-mono); font-size:11px; font-weight:600">UD</text>
+          <line x1="26" y1="44" x2="54" y2="44" stroke="var(--accent)" stroke-width="2"/>
+          <circle cx="98" cy="18" r="14" fill="var(--accent)"/>
+          <circle cx="112" cy="50" r="14" fill="var(--navy-2)"/>
+          <circle cx="90" cy="70" r="12" fill="var(--lo-ink)"/>
+        </svg>
+      </div>
+      <div style="min-width:0">
+        <span class="ad">Annonce · også fra Berg-Streaming</span>
+        <h2 id="promo-h">Hvor blev timerne af?</h2>
+        <p>StemplerInd er tidsregistrering med NFC-klistermærker. Sæt et mærke ved døren eller på skrivebordet, og scan med telefonen, når du starter og stopper. Farvede projektmærker viser, hvor timerne går hen. Appen er gratis, og dine data bliver på din telefon.</p>
+        <div class="facts"><span>NFC uden strøm</span><span>Projektmærker i farver</span><span>Eksport til Excel</span></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="https://stemplerind.dk/?utm_source=projectmanagement.dk&amp;utm_medium=banner&amp;utm_campaign=pm-site" target="_blank" rel="noopener">Se StemplerInd</a>
+        <a class="btn" href="https://stemplerind.dk/app/" target="_blank" rel="noopener">Prøv i browseren</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
 <section class="block ai-band" id="ai">
   <div class="wrap">
     <div class="sec-head">
@@ -707,6 +1020,23 @@ footer .small{font-size:var(--step--1); opacity:.75}
   </div>
 </section>
 
+<section class="block alt" id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Spørgsmål og svar</span>
+      <h2>Det, folk oftest spørger om</h2>
+    </div>
+    <div class="faq">
+      <div class="qa"><h3>Hvad er projektledelse?</h3><p>Projektledelse er at planlægge, styre og afslutte en midlertidig opgave med et klart mål, så den bliver leveret til tiden, inden for budget og i den aftalte kvalitet. I praksis handler det mest om beslutninger, forventninger og kommunikation mellem mennesker.</p></div>
+      <div class="qa"><h3>Hvilke faser har et projekt?</h3><p>De fleste metoder bruger fire faser: initiering, planlægning, udførelse og afslutning. Overvågning og styring kører hele vejen igennem, med opfølgning på tid, økonomi, kvalitet og risici.</p></div>
+      <div class="qa"><h3>Hvad står RACI for?</h3><p>Responsible, Accountable, Consulted og Informed. En RACI-matrix viser for hver opgave, hvem der udfører den, hvem der står til ansvar, hvem der skal spørges før, og hvem der skal orienteres efter. Hver opgave har præcis ét A.</p></div>
+      <div class="qa"><h3>Hvordan laver man en risikomatrix?</h3><p>Vurdér hver risiko på to skalaer fra 1 til 5: sandsynlighed og konsekvens. Gang de to tal. Jo højere score, jo mere opmærksomhed skal risikoen have. De største risici får en navngiven ejer og et konkret tiltag.</p></div>
+      <div class="qa"><h3>Hvad er forskellen på vandfald og agil projektledelse?</h3><p>Vandfald passer, når kravene er kendte og stabile. Man planlægger grundigt i starten og leverer til sidst. Agil passer, når kravene opdages undervejs. Man planlægger løbende og leverer lidt ad gangen. Hybrid kombinerer en fast ramme med agile detaljer.</p></div>
+      <div class="qa"><h3>Hvordan kan AI hjælpe en projektleder?</h3><p>AI er god til projektarbejdets tekst: første udkast til projektgrundlag, risikoanalyser, mødereferater med action points og statusrapporter til styregruppen. Du skal stadig selv tjekke indholdet og kun bruge de værktøjer, din organisation har godkendt.</p></div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer>
@@ -718,6 +1048,7 @@ footer .small{font-size:var(--step--1); opacity:.75}
       </a>
       <p class="small">Et opslagsværk om projektledelse og om, hvordan AI kan gøre projektarbejdet lettere. Drevet af Kasper Bergstrøm.</p>
       <p class="small">En del af Berg-Streaming · CVR 40989102 · Ove Billes Vej 7, 1., 2300 København S</p>
+      <p class="small">Tidsregistrering med NFC: <a href="https://stemplerind.dk/" target="_blank" rel="noopener">stemplerind.dk</a> · Senest opdateret <time datetime="2026-11-07">7. november 2026</time></p>
     </div>
     <div>
       <h4>Workshops og rådgivning</h4>
